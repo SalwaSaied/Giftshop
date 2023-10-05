@@ -1,0 +1,125 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    height: 4000px;
+    font-family: "poppins", sans-serif;
+}
+/* Header */
+.header {
+   
+    width: 100% ;
+    height: 50px;
+    background-color: #f9ece6;
+    overflow: auto;
+    position: fixed ;
+    top: 0 ; 
+    left: 0;
+    opacity: 0.7 ;
+    
+}
+
+.logo {
+    width: 50px;
+    height: 40px ;
+    margin-left: 30px;
+    float: left;
+    position: fixed;
+}
+.header-title{
+    display: inline-block ;
+      margin-left: 120px;
+      color: #3d3c3c;
+      font-size: 17px;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding-top: 1%;
+
+      
+}
+.list {
+    list-style-type: none ;
+    float: right;
+    margin-right: 150px;
+    padding-top: 1%;
+
+}
+
+.list   li {
+      display: inline-block ;
+      margin-left: 25px;
+      color: #fff;
+      font-size: 17px;
+      font-weight: bold;
+      text-transform: uppercase;
+
+     
+}
+
+.list  li  a {
+    text-decoration: none ;
+    color: #3d3c3c;
+}
+
+
+
+/* Heroarea */
+
+.div1 {
+    width: 100%;
+    height: 100vh;
+    padding-right: 10px;
+    position: relative; 
+    background-image: url(../Images/ddd.jpg) ;
+    background-repeat:no-repeat;
+ 
+    margin-top: 4%;
+ }
+
+ .overley {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    
+ }
+ .content {
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate( -50%  , -50%  );
+    text-align: center;
+ }
+ .title1 {
+    color: #db4566;
+    font-size: 55px;
+   
+ }
+
+ .p10 {
+    color: #db4566;
+    letter-spacing: 2px ;
+    margin: 15px  0px;
+ }
+
+ .btn {
+    width: 135px;
+    height: 47px;
+    border-radius: 6px;
+    border: 0;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-right: 12px;
+ }
+ .btn2 {
+    background-color: #db4566;
+    color: #ffffff3a;
+ }
+
+.btn:hover {
+    opacity: 0.5;
+}
